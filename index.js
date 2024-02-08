@@ -1,6 +1,3 @@
-<script>
-    alert('projet Anna');
-</script>
 //Original code By Webdevtrick ( https://webdevtrick.com )
 function showTime(){
     var date = new Date();
