@@ -9,7 +9,8 @@ function showTime(){
     h = (m < 10) ? "0" + m : m ;
     h = (s < 10) ? "0" + s : s ;
 
-    var time = h + ":" + m + ":" + s + " " + session;
+    //var time = h + ":" + m + ":" + s + " " + session;
+    var time = h + ":" + m + ":" + s;
     document.getElementById("DigitalCLOCK").innerText = time;
     document.getElementById("DigitalCLOCK").textContent = time;
 
